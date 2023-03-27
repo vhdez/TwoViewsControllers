@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="308.0" prefWidth="527.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="com.example.twoviewscontrollers.Controller1">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="sayHi" text="Switch between 2 Scenes">
+      <font>
+         <Font size="21.0" />
+      </font></Label>
+    <Button fx:id="sayHiButton" onAction="#sayHiButtonPressed" prefHeight="26.0" prefWidth="223.0" text="Say Hello" />
+   <Button fx:id="scene2Button" onAction="#goToScene2" prefHeight="26.0" prefWidth="223.0" text="Go To Scene 2" />
+</VBox>
